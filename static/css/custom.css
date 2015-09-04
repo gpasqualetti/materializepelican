@@ -10,3 +10,13 @@ img#sponsor-logo {
     width:100%;
     display:inline;
 }
+
+@media only screen and (max-width : 540px) {
+    nav .brand-logo {
+	font-size: 1.2rem; }
+}
+
+@media only screen and (max-width : 300px) {
+    nav .brand-logo {
+	font-size: 1.1rem; }
+}
