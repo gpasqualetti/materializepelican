@@ -1,0 +1,8 @@
+/* Questo serve per le pagine sulla geolocalizzazione in HTML5 */
+html
+
+#basicMap {
+          width: 640px;
+          height: 520px;
+          margin: 10px;
+      }

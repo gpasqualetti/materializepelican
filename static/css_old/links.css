@@ -1,0 +1,344 @@
+
+html
+{
+    /*This is needed in order to force the scroll bar to appear on the right
+      even when the page content would vertically fit in the page---otherwise
+      the centering would depend on whether the page has a scrollbar or not.*/
+    height: 101%;
+}
+/*
+body
+{
+    margin: 0;
+    padding: 0;
+    font: 90% sans-serif;
+    color: #666;
+}
+
+p.code
+{
+    font-family: monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+*/
+.column1 {
+    text-align: left;
+    width: 31%;
+    float: left;
+}
+
+.column2 {
+    text-align: left;
+    width: 32%;
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.column3 {
+    text-align: left;
+    width: 31%;
+    float: left;
+}
+/*
+h1
+{
+    font: 175% sans-serif;
+    color: #ff3300;
+}
+
+h2
+{
+    font: 125% sans-serif;
+    font-variant: small-caps;
+    color: #ff3300;
+}
+
+h3
+{
+    font: 110% sans-serif;
+    font-variant: small-caps;
+    color: #ff3300;
+}
+
+h4
+{
+    font: 90% sans-serif;
+    font-variant: small-caps;
+    color: #666;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+a
+{
+    color: #003399;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+#container
+{
+    margin: 0em auto;
+    width: 1000px;
+    text-align: left;
+    background: #fff;
+}
+
+#header
+{
+    height: 67px;
+    width: 100%;
+    position: relative;
+    background: url(../images/header.png) repeat 0 0;
+    border-bottom: 1px solid #aaa;
+    padding-top: 15px;
+}
+
+#header h1
+{
+    text-align: center;
+}
+*/
+/*
+#menu
+{
+    float: left;
+    width: 150px;
+    padding: 15px;
+}
+
+#menu a
+{
+    color: #666; text-decoration: none;
+}
+
+#menu a:hover
+{
+    text-decoration: underline;
+}
+
+#menu ul
+{
+    margin: 1em 0;
+    padding: 0;
+}
+
+#menu ul li
+{
+    margin: 0 0 1em;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu ul li.current
+{
+    color: #aaa;
+}
+
+#menu ul li:before
+{
+    color: #ff9900;
+    content: "> ";
+}
+*/
+/*#contents
+{
+    float: center;
+/*    width: 750px;*/
+/*    padding: 15px;
+    text-align: justify;
+}
+
+#contents img.floatright
+{
+    float: right;
+    margin: 0px 0px 0px 50px;
+}
+
+#contents img.floatleft
+{
+    float: left;
+    margin: 0px 50px 0px 0px;
+}
+
+#contents span.date
+{
+    font: 90% Lucida Grande,Lucida Sans,Arial,sans-serif;
+    font-variant: small-caps;
+    color: #666;
+}
+
+#contents span.date:before
+{
+    color: #666;
+    content: "[";
+}
+
+#contents span.date:after
+{
+    color: #666;
+    content: "]";
+}
+
+#contents font.emph
+{
+    color: #ff8800;
+}
+*/
+#contents ul
+{
+    margin: 1em 0;
+    padding: 0;
+}
+
+#contents ul li
+{
+    margin: 0 0 0.75em;
+    padding: 0;
+    list-style-type: none;
+}
+
+#contents ul li:before
+{
+    content: "";
+}
+
+#footer
+{
+    margin: 0em auto;
+    width: 700px;
+    clear: both;
+    text-align: center;
+    font-size: 83%;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-top: 1px solid #ccc;
+}
+
+#footer a:link    { text-decoration: none; }
+#footer a:hover   { text-decoration: underline; }
+/*
+.widget-DDG {
+   display: block;
+   height: 38px;
+   margin: 10px auto 0px;
+   width: 190px;
+}
+
+.widget-DDG_start {
+   background-image: url('/blog/assets/search-logo.gif');
+   background-repeat: no-repeat;
+   float: left;
+   height: 38px;
+   width: 38px;
+}
+
+.widget-DDG_input {
+   float: left;
+   width: 113px;
+}
+.DDGinput {
+   border-right: medium none;
+   border-left: medium none;
+   -moz-border-top-colors: none;
+   -moz-border-right-colors: none;
+   -moz-border-bottom-colors: none;
+   -moz-border-left-colors: none;
+   border-image: none;
+   border-width: 1px medium;
+   border-style: solid none;
+   border-color: #333 -moz-use-text-color;
+   height: 36px;
+   padding-left: 5px;
+   width: 113px;
+}
+.widget-DDG_end {
+   background-image: url('http://www.gabrielweinberg.com/blog/assets/search-btn.gif');
+   background-repeat: no-repeat;
+   cursor: pointer;
+   float: left;
+   height: 38px;
+   width: 38px;
+}
+*/
+.widget-DDG {
+   display: block;
+   height: 38px;
+   margin: 10px auto 0px;
+   width: 400px;
+}
+
+.widget-DDG_start {
+/*   background-image: url('http://www.gabrielweinberg.com/blog/assets/search-logo.gif');*/
+   background-image: url('../images/links2.gif');
+   background-repeat: no-repeat;
+   float: left;
+   height: 38px;
+   width: 38px;
+   /* margin: auto; */
+   /* border-top-left-radius: 5px; */
+   /* border-bottom-left-radius: 5px; */
+   /* border-width: 1px medium; */
+   /* border-style: solid none; */
+   /* border-color: #333 /\*-moz-use-text-color*\/; */
+}
+
+.widget-DDG_input {
+   float: left;
+   width: 320px;
+}
+
+.DDGinput {
+   border-right: medium none;
+   border-left: medium none; 
+   /*-moz-border-top-colors: none;
+   -moz-border-right-colors: none;
+   -moz-border-bottom-colors: none;
+   -moz-border-left-colors: none;*/
+   border-image: none;
+   border-width: 1px medium;
+   border-style: solid none;
+   border-color: #333 /*-moz-use-text-color*/;
+   height: 34px;
+   padding-left: 5px;
+   /* width: 260px; */
+   width: 320px;
+}
+
+.DDG-select select {
+   background: transparent;
+   border-image: none;
+   border-width: 1px medium;
+   border-style: solid none;
+   border-color: #333 /*-moz-use-text-color*/;
+   width: 60px;
+   padding: 9px;
+   font-size: 12px;
+   line-height: 1;
+   height: 38px;
+   float: left;
+   }
+
+.widget-DDG_end {
+/*   background-image: url('http://www.gabrielweinberg.com/blog/assets/search-btn.gif');*/
+   background-image: url('../images/links1.gif');
+   background-repeat: no-repeat;
+   cursor: pointer;
+   float: left;
+   height: 38px;
+   width: 38px;
+   /* border-top-right-radius: 5px; */
+   /* border-bottom-right-radius: 5px; */
+   /* border-width: 1px medium; */
+   /* border-style: solid none; */
+   /* border-color: #333 /\*-moz-use-text-color*\/; */
+}
