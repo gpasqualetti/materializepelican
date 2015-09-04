@@ -1,0 +1,63 @@
+Here an example of the pelicanconf.py:
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- #
+from __future__ import unicode_literals
+from time import strftime, localtime
+import collections
+
+SITENAME = ''
+AUTHOR = ''
+#SITEURL = ''
+
+RELATIVE_URLS = True
+
+TIMEZONE = ''
+DEFAULT_LANG = ''
+
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
+
+# Blogroll
+# LINKS =  ()
+
+# Social widget
+# SOCIAL = ()
+
+
+DEFAULT_PAGINATION = False
+
+# Uncomment following line if you want document-relative URLs when developing
+# RELATIVE_URLS = True
+
+DELETE_OUTPUT_DIRECTORY = True
+DISPLAY_PAGES_ON_MENU = True
+
+PATH = 'content/'
+STATIC_PATHS = []
+THEME = "themes/materializecss"
+
+MENUITEMS= [()]
+HIDDEN_PAGES = [] # The title of the index and/or other things
+# IGNORE_FILES = []
+
+DATE = strftime("on %A, %d %B %Y %H:%M (%z)", localtime())
+
+# Prefix of the Name Page
+NICKNAME= ''
+
+# Footer: insert here the information for the footer
+
+FOOTER_ABOUT = ''
+FOOTER_DESCRIPTION = ''
+
+# OrderedDict in this case is more useful than the default dict structure.
+FOOTER_CONNECT = collections.OrderedDict([])
+FOOTER_CONTACT = collections.OrderedDict([])
+
+PLUGINS = ''
