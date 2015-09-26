@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="{{ DEFAULT_LANG }}">
   <head>
-    <!-- <link rel="icon"  -->
-    <!-- 	type="image/png"  -->
-    <!-- 	href="{{ SITEURL }}/theme/images/favicon.png"> -->
+    <link rel="icon"
+    	type="image/ico"
+    	href="{{ SITEURL }}/images/favicon.ico">
     <meta charset="utf-8" />{% block metadata %}
     {% endblock %}
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
@@ -26,6 +26,7 @@
   </head>
 
   <body>
+    <header>
     <nav class="white" role="navigation">
       <div class="nav-wrapper container">
 	<a id="logo-container" href="{{ SITEURL }}" class="brand-logo left">{{ SITENAME }}</a>
@@ -43,6 +44,8 @@
 	</ul>
 
 	<ul id="nav-mobile" class="side-nav">
+	 <li class="logo"><a id="logo-container" href="{{ SITEURL }}">
+             <object id="front-page-logo" type="image/png" style="width:100%" data="{{ SITEURL }}/images/logo/logo.png">Your browser does not support PNG</object></a></li>
 	  {% if DISPLAY_PAGES_ON_MENU -%}
 	  {% for pg in PAGES if pg.title not in HIDDEN_PAGES %}
           <li{% if pg == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a></li>
@@ -57,6 +60,7 @@
 	<a href="#" data-activates="nav-mobile" class="button-collapse orange-text"><i class="mdi-navigation-menu"></i></a>
       </div>
     </nav>
+    </header>
     
     <div id="index-banner" class="parallax-container">
       <div class="section no-pad-bot">
