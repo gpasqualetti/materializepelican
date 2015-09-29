@@ -9,6 +9,12 @@
 {% endif %}
 {% if page.tag %}        <meta name="tags" content="{{page.tag}}" />
 {% endif %}
+{% if page.ogtitle %}        <meta property="og:title" content="{{page.ogtitle}}" />
+{% endif %}
+{% if page.ogdescription %}        <meta property="og:description" content="{{page.ogdescription}}" />
+{% endif %}
+{% if page.url %}        <meta property="og:url" content="http://www.ai-sf.it/lot/" />
+{% endif %}
 {% endblock %}
 
 <!-- title -->
