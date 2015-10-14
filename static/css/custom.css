@@ -24,11 +24,17 @@ img#sponsor-logo {
 #fotodilieto {
     max-height:100%;
     width:auto;
-    float:right;
+    float:left;
 }
 
-#fotodicella {
+#fotocentrata {
     max-height:100%;
     width:auto;
     float:centre;
+}
+
+#fotocella {
+    max-height:100%;
+    width:auto;
+    float:centre:
 }
