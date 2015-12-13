@@ -18,6 +18,15 @@
 <div class="row center">
   <h5 class="header col s12 light">{{page.subtitle}}</h5>
 </div>
+{% block buttonfile %}
+{% if page.buttonfile %}
+{% if page.buttondescription %}
+  <div class="row center">
+    <a href="{{ SITEURL }}/files/{{page.buttonfile}}" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">{{page.buttondescription}}</a><br>
+  </div>
+{% endif %}
+{% endif %}
+{% endblock %}
 {% endif %}
 {% endblock %}
 
