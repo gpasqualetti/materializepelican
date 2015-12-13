@@ -20,3 +20,21 @@ img#sponsor-logo {
     nav .brand-logo {
 	font-size: 1.1rem; }
 }
+
+#fotodilieto {
+    max-height:100%;
+    width:auto;
+    float:left;
+}
+
+#fotocentrata {
+    max-height:100%;
+    width:auto;
+    float:centre;
+}
+
+#fotocella {
+    max-height:100%;
+    width:auto;
+    float:centre:
+}
